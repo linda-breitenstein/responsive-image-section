@@ -25,9 +25,10 @@ html {
   color: #fff;
 }
 
-.img-flex {
+.img {
   max-width: 100%;
   display: block;
+  flex-wrap: wrap;
   padding: 1rem;
 }
 
@@ -46,11 +47,6 @@ p {
   margin-top: 0;
 }
 
-.img-flex, .body {
-  display: inline-block;
-  max-width: 25em;
-  vertical-align: middle;
-}
 
 @media only screen and (min-width: 25em) {
 
